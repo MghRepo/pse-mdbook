@@ -3,7 +3,7 @@ deploy : book
 	@echo "====> déploiement sur github"
 	git worktree add /tmp/book gh-pages
 	mdbook build
-	rm -rm /tmp/book/*
+	rm -rf /tmp/book/*
 	cp -rp book/* /tmp/book/
 	cd /tmp/book && \
 		git update-ref -d refs/heads/gh-pages
