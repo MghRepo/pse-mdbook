@@ -1,6 +1,6 @@
 # Summary
 
-[Introduction](README.md)
+[Préface](README.md)
 
 * [Algorithmique et méthodes de programmation](PSE_Algo/README.md)
     + [Structures de contrôles](PSE_Algo/structures_de_controles/README.md)
