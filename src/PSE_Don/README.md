@@ -9,12 +9,12 @@ une approche relativement légère pour deux sujets aussi larges.
 
 #### Sommaire
 
-+ [Bases de données](PSE_Don/bases_de_donnees/README.md)
-    - [CRUD](PSE_Don/bases_de_donnees/crud.md)
-    - [ACID](PSE_Don/bases_de_donnees/acid.md)
-+ [Algèbre relationnelle](PSE_Don/algebre-relationnelle.md)
-+ [Administration SGBDR PostgreSQL](PSE_Don/administration-sgbdr-postgresql/README.md)
-    - [Stockage et réplication](PSE_Don/administration-sgbdr-postgresql/stockage-et-replication.md)
-    - [Contrôle et connectivité](PSE_Don/administration-sgbdr-postgresql/controle-et-connectivite.md)
-    - [Sécurité](PSE_Don/administration-sgbdr-postgresql/securite.md)
-+ [Big data et lac de données](PSE_Don/big-data-et-lac-de-donnees.md)
++ [Bases de données](bases_de_donnees/index.html)
+    - [CRUD](bases_de_donnees/crud.md)
+    - [ACID](bases_de_donnees/acid.md)
++ [Algèbre relationnelle](algebre-relationnelle.md)
++ [Administration SGBDR PostgreSQL](administration-sgbdr-postgresql/index.html)
+    - [Stockage et réplication](administration-sgbdr-postgresql/stockage-et-replication.md)
+    - [Contrôle et connectivité](administration-sgbdr-postgresql/controle-et-connectivite.md)
+    - [Sécurité](administration-sgbdr-postgresql/securite.md)
++ [Big data et lac de données](big-data-et-lac-de-donnees.md)
