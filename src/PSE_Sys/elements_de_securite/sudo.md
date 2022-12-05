@@ -1,3 +1,5 @@
+## Éléments de sécurité
+
 ### Sudo
 
 Sudo permet à un administrateur système de déléguer une autorité pour permettre certains à utilisateurs -- ou groupes

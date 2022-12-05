@@ -38,7 +38,6 @@ important de variables spéciales qui font référence à des arguments, codes d
 - $? - Code retour de la commande précédente (très utile pour une vérification par exemple)
 - $$ - Identifiant de processus (PID) du shell courant.
 - $! - Identifiant de processus (PID) de la dernière commande passée en background.
-- !! - Ensemble de la dernière commande passée (arguments inclus). Très utile si on a oublié le sudo (sudo !!).
 - $_ - Dernier argument de la dernière commande. Dans un shell interactif on peut également faire Esc suivi du point.
 
 Les commandes génèrent généralement une sortie via stdout, des erreurs via stderr, et un code retour. Le code retour permet de
