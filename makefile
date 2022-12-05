@@ -9,4 +9,4 @@ deploy : book
 		git update-ref -d refs/heads/gh-pages
 		git add -A && \
 		git commit -m "déployé le $(shell date) par ${USER}" && \
-		git push origin gh-page
+		git push origin gh-pages
