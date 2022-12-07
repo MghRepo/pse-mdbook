@@ -131,6 +131,7 @@
         - [Client serveur](PSE_Log/architecture_logicielle/client-serveur.md)
         - [Trois niveaux](PSE_Log/architecture_logicielle/trois-niveaux.md)
         - [N-tiers](PSE_Log/architecture_logicielle/n-tiers.md)
+        - [Modèle-Vue-Contrôleur](PSE_Log/architecture_logicielle/modele-vue-controleur.md)
     + [Haute disponibilité](PSE_Log/haute-disponibilite.md)
     + [Langages de présentation](PSE_Log/langages-de-presentation.md)
     + [Construction et automatisation](PSE_Log/construction_et_automatisation/README.md)

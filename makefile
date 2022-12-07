@@ -3,8 +3,8 @@ deploy : book
 	@echo "====> nettoyage gh-pages remote"
 	git push origin -d gh-pages
 	@echo "====> nettoyage gh-pages local"
-	rm -rf /tmp/book/*
-	git worktree remove /tmp/book
+	rm -rf /tmp/book/* 
+	git worktree remove --force /tmp/book
 	@echo "====> préparation worktree"
 	git branch -D gh-pages
 	git worktree add -b gh-pages /tmp/book
