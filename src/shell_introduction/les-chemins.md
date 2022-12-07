@@ -16,9 +16,9 @@ de l'appel par ce shell précisément :
     /usr/bin/echo
 ```
 Les chemins sont la description des emplacements des fichiers dans l'architecture du système de fichiers. Sur Linux et MacOS,
-les répertoires sont séparés par des slashs. Le premier slash sur la gauche symbolise le sommet du système de fichiers (celui-ci
+les répertoires sont séparés par des slash. Le premier slash sur la gauche symbolise le sommet du système de fichiers (celui-ci
 étant hiérarchique) il est appelé root ou répertoire root, racine en français. Sous Windows les répertoires sont généralement
-séparés par des anti-slash et chaque partition est la racine de son propre système de fichier hiérarchique. La partition est
+séparés par des antislash et chaque partition est la racine de son propre système de fichier hiérarchique. La partition est
 généralement désignée par une lettre de l'alphabet (C:\ D:\ etc.).
 
 Il existe 2 types de chemins :

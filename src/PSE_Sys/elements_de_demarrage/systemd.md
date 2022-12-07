@@ -13,7 +13,7 @@ Lorsqu'il est exécuté en tant qu'instance système, systemd interprète le fic
 présents dans les répertoires de *system.conf.d* ; lorsque lancé en tant qu'instance utilisateur, systemd interprète le fichier
 de configuration *user.conf* et les fichiers dans les répertoires *user.conf.d*
 
-systemd fournit un système de dépendances entre des entités variées appelées "unités" de 11 types différents. Les unités
+Systemd fournit un système de dépendances entre des entités variées appelées "unités" de 11 types différents. Les unités
 encapsulent des objets utiles pour le démarrage et la gestion du système. La grande majorité des unités sont configurées dans
 des fichiers de configuration d'unité, néanmoins certaines peuvent être créées automatiquement depuis d'autres configurations,
 dynamiquement d'un état système ou de façon programmée à l'exécution. Une unité peut être "active" (i.e. démarrée, liée,

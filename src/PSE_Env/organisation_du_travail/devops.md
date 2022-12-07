@@ -14,7 +14,7 @@ plusieurs des catégories suivantes, qui reflètent les aspects clefs des proces
 1. Code - le développement et la vérification du code, les outils de gestion du code source, la fusion de code.
 2. Construction - les outils d'intégration continue, le statut de construction.
 3. Test - les outils de tests en continu qui fournissent un retour rapide sur les risques opérationnels.
-4. Empaquetage - Dépot logiciel, mise à disposition de l'application pré-déploiement.
+4. Empaquetage - Dépôt logiciel, mise à disposition de l'application pré-déploiement.
 5. Publication - gestion des changements, approbation et automatisation des publications.
 6. Configuration - configuration et gestion d'infrastructure, outils d'infrastructure as code.
 7. Surveillance - applications de surveillance des performances, expérience de l'utilisateur final.

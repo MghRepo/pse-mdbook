@@ -23,7 +23,7 @@ L'interface noyau est une couche d'abstraction de bas niveau. Quand un processus
 un appel système, généralement à travers une fonction englobante.
 
 Il existe différentes architectures de noyau. Les noyaux monolithiques s'exécutent entièrement dans un espace d'adressage unique
-avec le processeur en mode supervision, principalement pour des questions de rapidité. Les micro-noyaus exécutent la plupart de
+avec le processeur en mode supervision, principalement pour des questions de rapidité. Les micro-noyaux exécutent la plupart de
 leurs services dans l'espace utilisateur, de la même manière que les processus utilisateurs, principalement pour des
 considérations de résilience et de modularité. Le noyau Linux est monolithique, bien qu'également modulaire, puisqu'il peut
 insérer et supprimer des module noyaux chargeable à l'exécution.

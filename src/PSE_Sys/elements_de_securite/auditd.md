@@ -3,7 +3,7 @@
 ### Auditd
 
 Le cadriciel d'audit Linux fournit un profil de protection d'accès contrôlés (CAPP) qui collecte de manière fiable des
-informations concernant des évènements pouvant être pertinant (mais pas forcément) pour la sécurité du système.
+informations concernant des évènements pouvant être pertinent (mais pas forcément) pour la sécurité du système.
 
 L'audit Linux permet de sécuriser le système en fournissant les moyens d'analyser ce qui se passe de façon très détaillé.
 Néanmoins, il ne fournit pas de sécurité additionnelle en soit et ne protège pas le système de bogues ou de failles. Audit est

@@ -11,7 +11,7 @@ Une image unifiée permet d'inclure :
 * une image noyau,
 * une image initramfs,
 * l'interface ligne de commande du noyau,
-* optionnelement, un écran de démarrage.
+* optionnellement, un écran de démarrage.
 
 Grâce au talon, l'exécutable résultant, et par conséquent tous ses éléments, peuvent être facilement signés afin d'utiliser la
 fonctionnalité de démarrage sécurisé UEFI (Secure Boot).

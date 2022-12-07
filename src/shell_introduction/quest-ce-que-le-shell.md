@@ -10,8 +10,8 @@ permettent à la fois une simplicité dans la décomposition des tâches, et une
 Les shells peuvent généralement dépendre des OS, sachant qu'il en existe une quantité pour chacun d'entre eux. Dans le cas de
 Linux, le Bourne Again Shell ou bash est très largement répandu. C'est celui qui va nous intéresser ici.
 
-Quand on ouvre un terminal, une fenêtre s'ouvre affichant un prompt shell. Dans le cadre du bash si aucune customisation n'a été
-faite il se décompose ainsi :
+Quand on ouvre un terminal, une fenêtre s'ouvre affichant un prompt shell. Dans le cadre du bash si aucune personnalisation n'a
+été faite il se décompose ainsi :
 ```bash,ignore
     [utilisateur@machine répertoire\ de\ travail]$
 ```
@@ -33,6 +33,6 @@ chaîne de guillemets :
     $ echo "Hello world!"
     Hello world!
 ```
-On peut également échapper le caractère espace à l'aide d'un anti-slash : $ echo Hello\ world!  Hello world!
+On peut également échapper le caractère espace à l'aide d'un antislash : $ echo Hello\ world!  Hello world!
 
 > Exemple pour créer un répertoire Mes photos on écrit : *mkdir Mes\ photos*

@@ -98,7 +98,7 @@ noeud inséré.
 
 1. Le noeud inséré n'a pas de parent : il est en fait à la racine de l'arbre. La seule correction à apporter consiste à le
 colorier en **noir** pour respecter la propriété 2.
-2. Le noeud du parent inséré est **noir**, alors, l'arbre est valide : la propriété 3 et vérifiée, et la hauteur-noire de
+2. Le noeud du parent inséré est **noir**, alors, l'arbre est valide : la propriété 3 et vérifiée, et la hauteur noire de
 l'arbre est inchangée puisque le nouveau noeud est **rouge**. Il n'y a donc rien d'autre à faire.
 3. Le parent du noeud inséré est **rouge**, alors la propriété 3 est invalide. L'action à effectuer dépend de la couleur de
 *l'oncle* du noeud inséré, c'est à dire le "frère" du parent du noeud inséré. En d'autres termes : en partant du noeud inséré

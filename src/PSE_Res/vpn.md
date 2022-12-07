@@ -7,5 +7,5 @@ fournit un accès à des ressources inaccessibles sur le réseau public et est g
 chiffrement est commun bien qu'il ne soit pas une partie inhérente d'une connexion VPN.
 
 Un VPN est créé en établissant une connexion virtuelle point à point via l'usage de circuits dédiés ou à l'aide de protocoles
-tunnels à travers des réseaux existants. Un VPN disponnible depuis un Internet public peut fournir certains bénéfices d'un WAN.
-Pour l'utilisateur, les ressources disponnibles dans un réseau privé peuvent être accédées à distance.
+tunnels à travers des réseaux existants. Un VPN disponible depuis un Internet public peut fournir certains bénéfices d'un WAN.
+Pour l'utilisateur, les ressources disponibles dans un réseau privé peuvent être accédées à distance.

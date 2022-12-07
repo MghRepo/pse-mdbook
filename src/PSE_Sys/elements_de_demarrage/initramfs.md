@@ -3,7 +3,7 @@
 ### Initramfs
 
 Une fois que le chargeur d'amorçage a chargé le noyau et les possibles fichiers initramfs et exécute le noyau, le noyau extrait
-l'initramfs (système de fichier RAM initial) dans le rootfs (système de fichier racine initial, spécifiquemement un ramfs ou
+l'initramfs (système de fichier RAM initial) dans le rootfs (système de fichier racine initial, spécifiquement un ramfs ou
 tmpfs) qui était vide jusqu'alors. La premier initramfs extrait a été inclus dans le binaire du noyau lors de la construction de
 celui-ci, ensuite de possibles fichiers initramfs externes sont extraits. Par conséquent les initramfs externes surchargent des
 fichiers portant le même nom dans l'initramfs inclus. Le noyau execute alors **init** (dans le rootfs) en tant que premier

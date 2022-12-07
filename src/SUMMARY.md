@@ -121,7 +121,7 @@
     + [Protocoles](PSE_Res/protocoles/README.md)
         - [Couche application](PSE_Res/protocoles/couche-application.md)
         - [Couche transport](PSE_Res/protocoles/couche-transport.md)
-        - [Couche internet](PSE_Res/protocoles/couche-internet.md)
+        - [Couche réseau](PSE_Res/protocoles/couche-reseau.md)
         - [Couche liaison](PSE_Res/protocoles/couche-liaison.md)
     + [MIB](PSE_Res/mib.md)
     + [Active Directory](PSE_Res/active-directory.md)

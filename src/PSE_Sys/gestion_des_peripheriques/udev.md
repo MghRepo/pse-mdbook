@@ -34,4 +34,4 @@ Udev est divisé en trois parties :
 * Le daemon de l'espace utilisateur *udevd* qui gère */dev* virtuel.
 * L'utilitaire d'administration en ligne de commande *udevadm* pour des diagnostics.
 
-Le système reçoit des appels depuis le noyau via des sockets netlink.
+Le système reçoit des appels depuis le noyau via des sockets Netlink.

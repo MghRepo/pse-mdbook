@@ -72,9 +72,8 @@ lorsque toutes les clefs sont hachées vers trop peu de valeurs.
 
 Une statistique critique pour une table de hachage est le facteur de charge, défini comme :
 
-facteur de charge = n/k,
+Facteur de charge = n/k, où
 
-où
 * *n* est le nombre des entrées occupées dans la table de hachage,
 * *k* est le nombre d'emplacements.
 

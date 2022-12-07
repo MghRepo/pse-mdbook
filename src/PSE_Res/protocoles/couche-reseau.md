@@ -1,9 +1,9 @@
 ## Protocoles
 
-### Couche internet
+### Couche réseau
 
 * **IPv4** (*Internet Protocol v.4*) : est le principal protocole de communication de la suite des protocoles internet en
-relayant des datagrammes à travers les frontières de réseaux. Ces fonctions de routage permettent l'aggrégation de réseaux, qui
+relayant des datagrammes à travers les frontières de réseaux. Ces fonctions de routage permettent l'agrégation de réseaux, qui
 établit essentiellement Internet. IP a pour fonction de livrer des paquets depuis un hôte source à un hôte destination
 uniquement via l'adresse IP contenue dans l'entête. A cette fin, IP définit des structures de paquets qui encapsulent la donnée
 à envoyer. Le protocole définit également les méthodes d'adressage utiliser pour étiqueter le datagramme des informations
@@ -13,7 +13,7 @@ d'adresses. Néanmoins une grande partie de ces adresses est réservée pour des
 résoudre le problème d'épuisement du nombre d'adresse IPv4. IPv6 utilise des adresses de 128-bits soit 3,4.10^38 adresses. Les
 deux protocoles ne sont pas interopérable, de fait aucune communication entre eux n'est possible. IPv6 fournit d'autres
 avantages techniques en plus du plus grand espace d'adressage. En particulier, il permet des méthodes d'allocation d'adresses
-hiérarchiques qui facilite l'aggrégation de routes à travers Internet, limitant l'expansion des tables de routage. L'usage de
+hiérarchiques qui facilite l'agrégation de routes à travers Internet, limitant l'expansion des tables de routage. L'usage de
 l'adressage multicast est étendu et simplifié, il contient également d'autres optimisations pour la livraison de services. La
 mobilité des appareils, la sécurité, et la configuration ont été considérés lors de la création du protocole.
 * **ICMP** (*Internet Control Message Protocol*) : est un protocole de la suite des protocoles internet utilisé par les

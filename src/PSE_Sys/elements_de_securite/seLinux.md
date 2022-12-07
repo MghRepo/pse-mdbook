@@ -20,7 +20,7 @@ qu'une dépendance aux binaires setuid/setgid.
 Lorsqu'une application ou un processus, reconnu comme un sujet, effectue une requête d'accès à un objet, tel qu'un fichier,
 SELinux vérifie à l'aide d'un cache de vecteur d'accès (AVC), où les permissions des sujets et des objets sont mises en cache.
 
-Si SELinux ne trouve pas matière à trancher à propos de cet accès dans le cache, il envoit une requête au serveur de sécurité.
+Si SELinux ne trouve pas matière à trancher à propos de cet accès dans le cache, il envoie une requête au serveur de sécurité.
 Le serveur de sécurité vérifie le contexte de sécurité de l'application ou du processus et du fichier. Le contexte de sécurité
 est appliqué depuis la base de données de politiques SELinux. La permission est donnée ou refusée.
 
@@ -28,15 +28,15 @@ Si la permission est refusée, un message "avc: denied" sera visible dans */var/
 
 Chaque processus et ressource système a une étiquette spéciale de sécurité appelée contexte SELinux. Un contexte SELinux est un
 identifiant qui s'abstrait des détails du systèmes et se concentre sur les propriétés de sécurité de l'objet. Cela permet un
-référencement des objets cohérent dans la politique SELinux mais supprime également toute ambiguité que l'on peut retrouver avec
+référencement des objets cohérent dans la politique SELinux mais supprime également toute ambigüité que l'on peut retrouver avec
 d'autres méthodes d'identification ; par exemple, un fichier peut avoir plusieurs noms de chemins valides sur un système qui
 utilise des montages liés.
 
-La politique SELinux utilise ces contextes dans une série de règles qui définissent comment un processus peut intéragir avec les
-autres ainsi que les différentes ressources systèmes. Par défaut, la politique ne permet aucune intéraction à moins qu'une régle
+La politique SELinux utilise ces contextes dans une série de règles qui définissent comment un processus peut interagir avec les
+autres ainsi que les différentes ressources systèmes. Par défaut, la politique ne permet aucune interaction à moins qu'une règle
 explicite en permette l'accès.
 
 Le contexte SELinux contient plusieurs champs : utilisateur, role, type, et niveau de sécurité. L'information du type SELinux
 est sans doute la plus importante quand il s'agit de la politique SELinux, du fait que la règle la plus commune de la politique
-SELinux qui définit les intéractions autorisées entre les processus et les ressources systèmes utilise les types SELinux et non
+SELinux qui définit les interactions autorisées entre les processus et les ressources systèmes utilise les types SELinux et non
 le contexte en entier. Le type SELinux finit habituellement par *_t* (e.g. *httpd_t*).

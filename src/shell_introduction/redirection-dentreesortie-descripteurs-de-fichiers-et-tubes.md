@@ -93,7 +93,7 @@ La première commande liste l'ensemble des fichiers .txt et wc compte le nombre 
 argument.
 
 Pour savoir ce qu'une commande peut faire, savoir quelle est son utilisation généralement celle-ci implémente une option --help
-ou une référence (page) dans le man. man est une commande qui renvoie une section du manuel système. Pour plus de détail :
+ou une référence (page) dans le man. Man est une commande qui renvoie une section du manuel système. Pour plus de détail :
 ```bash,ignore
     $ man man
 ```

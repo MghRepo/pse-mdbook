@@ -11,7 +11,7 @@ classifient tous les protocoles rattachés en fonction de l'étendue de leur imp
 couche la plus haute :
 
 * **Liaison** : contient des méthodes de communications pour des données appartenant à un unique segment réseau (ou lien).
-* **Internet** : fournit l'interconnexion entre réseaux indépendants.
+* **Réseau** : fournit l'interconnexion entre réseaux indépendants.
 * **Transport** : gère la communication d'hôte à hôte.
 * **Application** : fournit l'échange de données inter-processus pour les applications.
 

@@ -17,6 +17,6 @@ Le chargement du disque RAM initial peut également inclure un microcode process
 sécurité et de stabilité.
 
 Les mises à jour du microcode sont généralement incluses dans le microgiciel de la carte mère et appliquées durant
-l'initialisation du microgiciel. Du fait que les fabriquants des équipements d'origine ne mettaient pas forcément à jour leur
+l'initialisation du microgiciel. Du fait que les fabricants des équipements d'origine ne mettaient pas forcément à jour leur
 microgiciel de manière régulière et que les vieux système ne bénéficiaient d'aucune mise à jour, la possibilité d'appliquer ses
 mises à jour du microcode processeur a été ajouté au moment du démarrage pour le noyau Linux.

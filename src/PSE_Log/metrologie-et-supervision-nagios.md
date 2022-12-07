@@ -14,5 +14,5 @@ réseau à des plugins écrits spécifiquement.
 * Supervision à distance via des tunnels chiffrés SSL ou SSH.
 * Un simple plugin qui permet aux utilisateurs de facilement développer leurs propres vérifications de services selon leurs
 besoins, en utilisant les outils de leur choix (scripts shell, C++, Perl, Ruby, Python, PHP, C#, etc.)
-* Des plugins de mise en forme des données disponnibles
+* Des plugins de mise en forme des données disponibles
 * Vérification de services parallélisée etc.

@@ -50,7 +50,7 @@ que false aura toujours un code à 1. Exemples :
 ```bash,ignore
     false || echo "Oups, raté !"
     
-    true || echo "N'est par affiché"
+    true || echo "N'est pas affiché"
     
     true && echo "Les choses se sont bien passées."
     
