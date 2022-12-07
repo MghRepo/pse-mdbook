@@ -9,7 +9,6 @@ deploy : book
 	git branch -D gh-pages
 	git worktree add -b gh-pages /tmp/book
 	@echo "====> test et build"
-	mdbook test
 	mdbook build
 	@echo "====> copie worktree gh-pages puis déploiement sur github"
 	cp -rp book/* /tmp/book/
