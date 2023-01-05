@@ -17,7 +17,7 @@ systèmes d'exploitation invités.
 programme. Un système d'exploitation invité s'exécute en tant que processus de l'hôte. Les hyperviseurs de type-2 créent une
 abstraction pour les systèmes d'exploitation invités depuis le système d'exploitation hôte.
 
-Cette distinction entre les deux types n'est pas toujours claire. Par exemple KVM et bhyve sont des modules noyau qui transforme
-le système d'exploitation hôte en hyperviseur de type-1. En même temps, les distributions Linux et FreeBSD sont aussi des
-systèmes d'exploitations conventionnels, où des applications entrent en concurrence les unes avec les autres pour les ressources
-VM et ils peuvent être aussi catégorisé comme des hyperviseurs de type-2.
+Cette distinction entre les deux types n'est pas toujours claire. Par exemple KVM et bhyve sont des modules noyau qui
+transforment le système d'exploitation hôte en hyperviseur de type-1. En même temps, les distributions Linux et FreeBSD sont
+aussi des systèmes d'exploitations conventionnels, où des applications entrent en concurrence les unes avec les autres pour les
+ressources VM et ils peuvent être aussi catégorisés comme des hyperviseurs de type-2.
