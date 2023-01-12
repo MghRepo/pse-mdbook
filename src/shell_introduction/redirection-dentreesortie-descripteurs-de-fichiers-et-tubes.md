@@ -87,7 +87,7 @@ l'exploitation de fichiers de données.
 Une commande conçue pour fonctionner avec l'opérateur pipe est xargs. xargs lit l'entrée standard et passe chaque item en
 argument à la fonction suivante. Un exemple d'application :
 ```bash,ignore
-    $ ls *.txt | xargs wc
+    $ ls *.txt | xargs wc -l
 ```
 La première commande liste l'ensemble des fichiers .txt et wc compte le nombre de ligne de chacun des fichiers passés en
 argument.
