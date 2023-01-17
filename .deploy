@@ -12,7 +12,7 @@ then
 	git branch -D gh-pages
 fi
 echo "====> Préparation du worktree"
-rm -r "$1"*
+rm -r "$1"
 git worktree add -b gh-pages "$1"
 echo "====> Test et build"
 mdbook test && mdbook build
