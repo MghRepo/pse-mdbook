@@ -22,7 +22,7 @@ echo "====> Déploiement sur github"
 cd "$1"
 git update-ref -d refs/heads/gh-pages
 git add -A
-git commit -m "déployé le $(shell date) par ${USER}"
+git commit -m "déployé le $(date) par ${USER}"
 git push origin gh-pages
 
 exit 0
