@@ -115,6 +115,7 @@
         - [Classification](PSE_Res/topologie_de_reseau/classification.md)
     + [VLAN](PSE_Res/vlan.md)
     + [VPN](PSE_Res/vpn.md)
+    + [Proxy](PSE_Res/proxy.md)
     + [NAS](PSE_Res/nas.md)
     + [SAN](PSE_Res/san.md)
     + [Modèle OSI](PSE_Res/modele-osi.md)
