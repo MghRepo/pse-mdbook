@@ -87,6 +87,7 @@
         - [Listes de contrôle d'accès ACL](PSE_Sys/elements_de_securite/listes-de-controle-dacces-ACL.md)
         - [SELinux](PSE_Sys/elements_de_securite/seLinux.md)
         - [PAM](PSE_Sys/elements_de_securite/pam.md)
+        - [Polkit](PSE_Sys/elements_de_securite/polkit.md)
         - [Sudo](PSE_Sys/elements_de_securite/sudo.md)
         - [Auditd](PSE_Sys/elements_de_securite/auditd.md)
     + [Virtualisation et conteneurisation](PSE_Sys/virtualisation_et_conteneurisation/README.md)
