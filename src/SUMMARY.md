@@ -76,6 +76,7 @@
         - [Cgroups](PSE_Sys/elements_de_demarrage/cgroups.md)
         - [Espaces de noms](PSE_Sys/elements_de_demarrage/espaces-de-noms.md)
         - [Systemd](PSE_Sys/elements_de_demarrage/systemd.md)
+        - [Getty](PSE_Sys/elements_de_demarrage/getty.md)
         - [Shell](PSE_Sys/elements_de_demarrage/shell.md)
     + [Éléments de sécurité](PSE_Sys/elements_de_securite/README.md)
         - [Secure Shell](PSE_Sys/elements_de_securite/secure-shell.md)
