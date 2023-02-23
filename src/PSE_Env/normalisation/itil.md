@@ -2,8 +2,8 @@
 
 ### ITIL
 
-ITIL (*Information Technology Infrastructure Library*) est un ensemble d'ouvrages recensant les bonnes pratiques de gestion du
-système d'information.
+ITIL (*Information Technology Infrastructure Library*) est un ensemble d'ouvrages recensant les
+bonnes pratiques de gestion du système d'information.
 
 C'est un référentiel méthodologique très large qui aborde les sujets suivants :
 

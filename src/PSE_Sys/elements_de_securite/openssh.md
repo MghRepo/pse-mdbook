@@ -2,9 +2,10 @@
 
 ### OpenSSH
 
-OpenSSH (OpenBSD Secure Shell) est un ensemble de programmes informatiques fournissant des sessions de communications chiffrées
-à travers un réseau en utilisant le protocole Secure Shell. Il a été créé en tant qu'alternative open source à la suite
-logicielle propriétaire Secure Shell offerte par SSH Communications Security.
+OpenSSH (OpenBSD Secure Shell) est un ensemble de programmes informatiques fournissant des sessions
+de communications chiffrées à travers un réseau en utilisant le protocole Secure Shell. Il a été
+créé en tant qu'alternative open source à la suite logicielle propriétaire Secure Shell offerte par
+SSH Communications Security.
 
 On utilise généralement la suite d'outils OpenSSH suivante :
 
