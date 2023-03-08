@@ -24,10 +24,16 @@ tableaux associatifs, l'indexation des bases de données, les caches, et les ens
 
 L'idée du hachage est de distribuer les entrées (paires clefs/valeurs) à travers un tableau de
 réceptacles. Étant donné une clef, l'algorithme calcule un index qui suggère où l'entrée peut se
-trouver : ```code,ignore index = f(clef, taille_tableau) ``` Souvent cette opération est réalisée en
-deux étapes : ```code,ignore hash = hashfunc(key) index = hash % array_size ``` Avec cette méthode,
-le hash est indépendant de la taille du tableau, et est réduit à postériori à un index (un nombre
-entre *0* et *taille_tableau - 1*) à l'aide de l'opérateur modulo (*%*).
+trouver :
+```code,ignore
+    index = f(clef, taille_tableau)
+```
+Souvent cette opération est réalisée en deux étapes :
+```code,ignore
+    hash = hashfunc(key) index = hash % array_size
+```
+Avec cette méthode, le hash est indépendant de la taille du tableau, et est réduit à postériori à un
+index (un nombre entre *0* et *taille_tableau - 1*) à l'aide de l'opérateur modulo (*%*).
 
 Dans le cas où la taille du tableau est une puissance de 2, l'opération de reste est réduite à un
 masquage, ce qui améliore la performance, mais aussi fait croître le nombre de problèmes si la
