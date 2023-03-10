@@ -8,4 +8,4 @@ serveurs virtuels ainsi que d'autres ressources sont mis à disposition des util
 plateforme logicielle est faite de composants en relation les uns avec les autres au travers d'un
 centre de données, contrôlant divers ensembles de matériels comprennant des ressources de traitement,
 de stockage et de réseautage. Les utilisateurs peuvent gérer la plateforme aux travers, d'une
-interface de contrôle basée web, d'outils en ligne de commande, ou de service web RESTful.
+interface de contrôle basée web, d'outils en ligne de commande, ou de services webs RESTfuls.
