@@ -10,6 +10,8 @@ partir d'un standard afin de garantir l'interopérabilité. À travers le masqua
 APIs présentent une approche modulaire et permettent aux utilisateurs d'accéder à l'interface
 indépendamment de son implémentation.
 
+#### Sections
+
 * [SOAP](soap.md)
 * [REST](rest.md)
 * [GraphQL](graphql.md)

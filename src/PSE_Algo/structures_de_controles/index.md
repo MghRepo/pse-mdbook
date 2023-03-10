@@ -10,6 +10,8 @@ s'étend des constructions de gestion d'exceptions (try-catch...) fréquemment t
 langages de haut niveau aux particularismes de certains langages comme les instructions différées
 (defer) de Go.
 
+#### Sections
+
 * [Structures de contrôles séquentielles](structures-de-controles-sequentielles.md)
 * [Structures de contrôles itératives](structures-de-controles-iteratives.md)
 * [Extensions de la notion de boucle](extensions-de-la-notion-de-boucle.md)

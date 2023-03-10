@@ -21,5 +21,7 @@ algorithmes se prêtent naturellement à une implémentation polymorphe (différ
 Les algorithmes de tri sont souvent étudiés dans les cours d'algorithmique pour introduire des
 notions comme la complexité algorithmique ou la terminaison.
 
+#### Sections
+
 * [Critère de classification](critere-de-classification.md)
 * [Exemples d'algorithmes de tri](exemples-dalgorithmes-de-tri.md)

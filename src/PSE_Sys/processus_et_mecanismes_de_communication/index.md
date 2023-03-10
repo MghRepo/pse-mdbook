@@ -1,5 +1,7 @@
 ## Processus et mécanismes de communication
 
+#### Sections
+
 * [Multitâche coopératif](multitache-cooperatif.md)
 * [Multitâche préemptif](multitache-preemptif.md)
 * [Algorithmes d'ordonnancement](algorithme-dordonnancement.md)

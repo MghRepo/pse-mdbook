@@ -1,5 +1,7 @@
 ## Gestion des périphériques
 
+#### Sections
+
 * [Pilotes](pilotes.md)
 * [Sysfs](sysfs.md)
 * [Udev](udev.md)

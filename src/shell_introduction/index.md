@@ -11,7 +11,6 @@ introduction au shell.
 * [Les chemins](les-chemins.md)
 * [Lister le contenu d'un répertoire et droits](lister-le-contenu-dun-repertoire-et-droits.md)
 * [D'autres commandes](dautres-commandes.md)
-* [Redirection d'entrée/sortie descripteurs de fichiers et
- tubes](redirection-dentreesortie-descripteurs-de-fichiers-et-tubes.md)
+* [Redirection d'entrée/sortie descripteurs de fichiers et tubes](redirection-dentreesortie-descripteurs-de-fichiers-et-tubes.md)
 * [Un outil versatile et puissant](un-outil-versatile-et-puissant.md)
 * [Scripts shell](scripts-shell.md)

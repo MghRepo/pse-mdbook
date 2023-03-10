@@ -1,5 +1,7 @@
 ## Virtualisation et conteneurisation
 
+#### Sections
+
 * [Chroot](chroot.md)
 * [Systemd-nspawn](systemd-nspawn.md)
 * [Conteneurisation LXC](conteneurisation-lxc.md)

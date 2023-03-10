@@ -13,7 +13,6 @@ On peut classifier les système de gestion de bases de données d'après les mod
 données supportés.
 
 Généralement les modèles logiques de données les plus rencontrés sont :
-
 * **Modèle hiérarchiques** : Modèle dans lequel la donnée est organisée dans une structure de type
   arbre. La donnée est stockée en tant qu'enregistrements connectés les uns aux autres par des
   liens. Un enregistrement est une collection de champs, avec chaque champs contenant une unique
@@ -28,3 +27,8 @@ Généralement les modèles logiques de données les plus rencontrés sont :
   un hybride des deux approches.
 * **Modèle relationnel** : Modèle dans lequel toute donnée est représentée en terme de liste
   ordonnée finie, groupée dans des relations.
+
+#### Sections
+
+* [CRUD](crud.md)
+* [ACID](acid.md)

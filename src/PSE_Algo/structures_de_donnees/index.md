@@ -3,6 +3,8 @@
 Une structure de données est une manière d'organiser les données pour les traiter plus facilement.
 C'est une mise en oeuvre concrète d'un type abstrait.
 
+#### Sections
+
 * [Pile](pile.md)
 * [File](file.md)
 * [Liste](liste.md)

@@ -1,5 +1,7 @@
 ## Éléments de démarrage
 
+#### Sections
+
 * [BIOS](bios.md)
 * [UEFI](uefi.md)
 * [Partitionnement de la mémoire](partitionnement-de-la-memoire.md)
