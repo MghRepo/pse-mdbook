@@ -9,3 +9,11 @@ appels de fonction. Outre les structures usuelles, la large palette des structur
 s'étend des constructions de gestion d'exceptions (try-catch...) fréquemment trouvés dans les
 langages de haut niveau aux particularismes de certains langages comme les instructions différées
 (defer) de Go.
+
+* [Structures de contrôles séquentielles](structures-de-controles-sequentielles.md)
+* [Structures de contrôles itératives](structures-de-controles-iteratives.md)
+* [Extension de la notion de boucle](extension-de-la-notion-de-boucle.md)
+* [Sous-programmes](sous-programmes.md)
+* [Exceptions](exceptions.md)
+* [Programmation multitâche](programmation-multitache.md)
+* [Programmation événementielle](programmation-evenementielle.md)

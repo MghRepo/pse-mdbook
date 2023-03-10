@@ -9,3 +9,8 @@ variés. Une API peut être entièrement personnalisée, spécifique à un compo
 partir d'un standard afin de garantir l'interopérabilité. À travers le masquage d'information, les
 APIs présentent une approche modulaire et permettent aux utilisateurs d'accéder à l'interface
 indépendamment de son implémentation.
+
+* [SOAP](soap.md)
+* [REST](rest.md)
+* [GraphQL](graphql.md)
+* [gRPC](grpc.md)
