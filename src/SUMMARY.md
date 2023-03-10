@@ -6,7 +6,7 @@
     + [Structures de contrôles](PSE_Algo/structures_de_controles/index.md)
         - [Structures de contrôles séquentielles](PSE_Algo/structures_de_controles/structures-de-controles-sequentielles.md)
         - [Structures de contrôles itératives](PSE_Algo/structures_de_controles/structures-de-controles-iteratives.md)
-        - [Extension de la notion de boucle](PSE_Algo/structures_de_controles/extensions-de-la-notion-de-boucle.md)
+        - [Extensions de la notion de boucle](PSE_Algo/structures_de_controles/extensions-de-la-notion-de-boucle.md)
         - [Sous-programmes](PSE_Algo/structures_de_controles/sous-programmes.md)
         - [Exceptions](PSE_Algo/structures_de_controles/exceptions.md)
         - [Programmation multitâche](PSE_Algo/structures_de_controles/programmation-multitache.md)

@@ -12,7 +12,7 @@ langages de haut niveau aux particularismes de certains langages comme les instr
 
 * [Structures de contrôles séquentielles](structures-de-controles-sequentielles.md)
 * [Structures de contrôles itératives](structures-de-controles-iteratives.md)
-* [Extension de la notion de boucle](extension-de-la-notion-de-boucle.md)
+* [Extensions de la notion de boucle](extensions-de-la-notion-de-boucle.md)
 * [Sous-programmes](sous-programmes.md)
 * [Exceptions](exceptions.md)
 * [Programmation multitâche](programmation-multitache.md)
