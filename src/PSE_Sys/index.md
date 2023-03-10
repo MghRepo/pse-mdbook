@@ -11,7 +11,7 @@ Linux](https://www.kernel.org/doc/html/latest/).
 
 #### Table des matières
 
-* [Processus et mécanismes de communication](processus_et_mécanismes_de_communication/index.md)
+* [Processus et mécanismes de communication](processus_et_mecanismes_de_communication/index.md)
 * [Gestion de la mémoire centrale](gestion_de_la_memoire_centrale/index.md)
 * [Gestion des périphériques](gestion_des_peripheriques/index.md)
 * [Éléments de démarrage](elements_de_demarrage/index.md)

@@ -2,10 +2,12 @@
 
 #### Introduction
 
-Ce livre est une compilation de mes fiches de préparation pour le concours d'inspecteur PSE
-concernant le [programme informatique](https://www.economie.gouv.fr/recrutement/aide-a-preparation-concours-interne-dinspecteur-programmeur-systeme-dexploitation-pse-de).
-J'ai séparé les différentes grandes parties du programme en six chapitres plus un chapitre
-supplémentaire d'introduction au shell.
+Ce livre est issu de mes fiches de préparation pour le concours d'inspecteur PSE concernant le
+[programme informatique](https://www.economie.gouv.fr/recrutement/aide-a-preparation-concours-interne-dinspecteur-programmeur-systeme-dexploitation-pse-de).
+Il est publié au format [mdbook](https://rust-lang.github.io/mdBook/) sous licence MIT. Si vous
+souhaitez participer au projet n'hésitez pas à le cloner et à m'envoyer vos pull request. Le but
+étant qu'il soit le plus utile possible au plus grand nombre. J'ai séparé les différentes grandes
+parties du programme en six chapitres plus un chapitre supplémentaire d'introduction au shell.
 
 #### Table des matières
 
