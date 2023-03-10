@@ -11,3 +11,11 @@ survole les mécanismes de la compilation et traite de la différence entre lang
 interprété. Enfin la dernière partie traite des APIs (utilisés dans les échanges de données
 inter-applicatifs) des spécifications SOAP, REST et de leurs évolutions récentes : GraphQL de
 Facebook et gRPC de Google.
+
+#### Table des matières
+
+* [Structures de controles](structures_de_controles/index.md)
+* [Structures de donnees](structures_de_donnees/index.md)
+* [Algorithmes de tri](algorithmes_de_tri/index.md)
+* [Algorithmes de chiffrements](algorithmes_de_chiffrements/index.md)
+* [Api](api/index.md)
