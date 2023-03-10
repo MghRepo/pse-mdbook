@@ -99,6 +99,7 @@
         - [Conteneurisation LXC](PSE_Sys/virtualisation_et_conteneurisation/conteneurisation-lxc.md)
         - [Conteneurisation Docker](PSE_Sys/virtualisation_et_conteneurisation/conteneurisation-docker.md)
         - [Orchestrateur Kubernetes](PSE_Sys/virtualisation_et_conteneurisation/orchestrateur-kubernetes.md)
+        - [OpenStack](PSE_Sys/virtualisation_et_conteneurisation/openstack.md)
         - [Libvirt](PSE_Sys/virtualisation_et_conteneurisation/libvirt.md)
         - [Hyperviseurs](PSE_Sys/virtualisation_et_conteneurisation/hyperviseurs.md)
 * [Données](PSE_Don/index.md)
