@@ -7,7 +7,7 @@
 * [Netfilter](netfilter.md)
 * [BPF et eBPF](bpf-et-ebpf.md)
 * [IDS](ids.md)
-* [Contrôle d'accès discrétionnaire et droits](controles-dacces-discretionnaire-et-droits.md)
+* [Contrôle d'accès discrétionnaire et droits](controle-dacces-discretionnaire-et-droits.md)
 * [Listes de contrôle d'accès ACL](listes-de-controle-dacces-acl.md)
 * [SELinux](selinux.md)
 * [Polkit](polkit.md)

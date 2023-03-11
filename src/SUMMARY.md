@@ -88,7 +88,7 @@
         - [Contrôle d'accès discrétionnaire et
           droits](PSE_Sys/elements_de_securite/controle-dacces-discretionnaire-et-droits.md)
         - [Listes de contrôle d'accès ACL](PSE_Sys/elements_de_securite/listes-de-controle-dacces-acl.md)
-        - [SELinux](PSE_Sys/elements_de_securite/seLinux.md)
+        - [SELinux](PSE_Sys/elements_de_securite/selinux.md)
         - [Polkit](PSE_Sys/elements_de_securite/polkit.md)
         - [Systemd-logind](PSE_Sys/elements_de_securite/systemd-logind.md)
         - [PAM](PSE_Sys/elements_de_securite/pam.md)
