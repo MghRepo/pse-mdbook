@@ -9,7 +9,7 @@ les éléments d'un système d'exploitation (Linux). Pour aller plus loin sur l'
 évoqués on peut aller retrouver [la documentation du noyau
 Linux](https://www.kernel.org/doc/html/latest/).
 
-#### Table des matières
+#### Sections
 
 * [Processus et mécanismes de communication](processus_et_mecanismes_de_communication/index.md)
 * [Gestion de la mémoire centrale](gestion_de_la_memoire_centrale/index.md)

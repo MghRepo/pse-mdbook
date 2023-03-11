@@ -1,6 +1,6 @@
 ## Virtualisation et conteneurisation
 
-#### Sous-sections
+#### Sections
 
 * [Chroot](chroot.md)
 * [Systemd-nspawn](systemd-nspawn.md)

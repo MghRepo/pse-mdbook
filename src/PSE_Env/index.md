@@ -4,7 +4,7 @@
 
 Ce chapitre traite de la partie environnement du système d'information du programme PSE.
 
-#### Table des matières
+#### Sections
 
 * [Normalisation](normalisation/index.md)
 * [Notions générales sur le droit de l'informatique](notions_generales_sur_le_droit_de_linformatique/index.md)

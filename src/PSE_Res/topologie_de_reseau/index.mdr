@@ -13,7 +13,7 @@ signaux peuvent varier entre deux réseaux différents, néanmoins leurs topolog
 identiques. La topologie physique d'un réseau est un problème particulier à la couche physique du
 modèle OSI.
 
-#### Sous-sections
+#### Sections
 
 * [Liens](liens.md)
 * [Noeuds](noeuds.md)

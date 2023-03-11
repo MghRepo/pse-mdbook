@@ -28,7 +28,7 @@ Généralement les modèles logiques de données les plus rencontrés sont :
 * **Modèle relationnel** : Modèle dans lequel toute donnée est représentée en terme de liste
   ordonnée finie, groupée dans des relations.
 
-#### Sous-sections
+#### Sections
 
 * [CRUD](crud.md)
 * [ACID](acid.md)

@@ -9,7 +9,7 @@ souhaitez participer au projet n'hésitez pas à le cloner et à m'envoyer vos p
 étant qu'il soit le plus utile possible au plus grand nombre. J'ai séparé les différentes grandes
 parties du programme en six chapitres plus un chapitre supplémentaire d'introduction au shell.
 
-#### Table des matières
+#### Chapitres
 
 * [Algorithmique et méthodes de programmation](PSE_Algo/index.md)
 * [Système](PSE_Sys/index.md)

@@ -4,7 +4,7 @@
 
 Ce chapitre traite de la partie réseau du programme PSE.
 
-#### Table des matières
+#### Sections
 
 * [Topologie de réseau](topologie_de_reseau/index.md)
 * [VLAN](vlan.md)

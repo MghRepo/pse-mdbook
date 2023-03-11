@@ -10,7 +10,7 @@ s'étend des constructions de gestion d'exceptions (try-catch...) fréquemment t
 langages de haut niveau aux particularismes de certains langages comme les instructions différées
 (defer) de Go.
 
-#### Sous-sections
+#### Sections
 
 * [Structures de contrôles séquentielles](structures-de-controles-sequentielles.md)
 * [Structures de contrôles itératives](structures-de-controles-iteratives.md)

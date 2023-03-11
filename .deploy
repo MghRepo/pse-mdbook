@@ -5,17 +5,14 @@ then
     echo "====> Suppression de la branche distante"
 	git push origin -d gh-pages
 fi
-if git branch -l | grep -q gh-pages
-then
-    echo "====> Suppression du worktree et de la branche locale"
-	git worktree remove --force "$1" 
-	git branch -D gh-pages
-fi
+echo "====> Suppression du worktree et de la branche locale"
+git worktree remove --force "$1" 
+git branch -D gh-pages
 echo "====> Préparation du worktree"
 rm -r "$1"
 git worktree add -b gh-pages "$1"
 echo "====> Test et build"
-mdbook test && mdbook build
+mdbook clean && mdbook build
 echo "====> Copie worktree gh-pages"
 cp -rp book/* "$1"
 echo "====> Déploiement sur github"

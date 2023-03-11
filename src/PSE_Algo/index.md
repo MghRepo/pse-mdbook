@@ -12,7 +12,7 @@ interprété. Enfin la dernière partie traite des APIs (utilisés dans les éch
 inter-applicatifs) des spécifications SOAP, REST et de leurs évolutions récentes : GraphQL de
 Facebook et gRPC de Google.
 
-#### Table des matières
+#### Sections
 
 * [Structures de controles](structures_de_controles/index.md)
 * [Structures de donnees](structures_de_donnees/index.md)

@@ -4,7 +4,7 @@
 
 Ce chapitre traite de la partie logiciels du programme PSE.
 
-#### Table des matières
+#### Sections
 
 * [Architecture Logicielle](architecture_logicielle/index.md)
 * [Haute disponnibilité](haute-disponibilite.md)
