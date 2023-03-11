@@ -2,7 +2,7 @@
 
 #### Sous-sections
 
-* [Protection des données individuelles](protection-des-données-individuelles.md)
+* [Protection des données individuelles](protection-des-donnees-individuelles.md)
 * [L'usage de la messagerie](lusage-de-la-messagerie.md)
 * [Rôle de la CNIL](role-de-la-cnil.md)
-* [Licences](Licences.md)
+* [Licences](licences.md)
