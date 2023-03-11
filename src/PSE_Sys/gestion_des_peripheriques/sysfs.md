@@ -3,7 +3,7 @@
 ### Sysfs
 
 Sysfs est un système de fichiers virtuel qui permet d'exporter depuis l'espace noyau vers l'espace
-utilisateur des informations sur les périphériques du système et leur pilotes, et est également
+utilisateur des informations sur les périphériques du système et leurs pilotes. Il est également
 utilisé pour configurer certaines fonctionnalités du noyau.
 
 Pour chaque objet ajouté à l'arbre des modèles de pilotes (pilotes, périphériques, classe de
