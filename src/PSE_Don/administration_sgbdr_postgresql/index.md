@@ -12,5 +12,5 @@ nombreux utilisateurs concurrents.
 #### Sous-sections
 
 * [Stockage et réplication](stockage-et-replication.md)
-* [Contrôle de connectivité](controle-de-connectivite.md)
+* [Contrôle et connectivité](controle-et-connectivite.md)
 * [Sécurité](securite.md)
