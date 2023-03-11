@@ -12,3 +12,9 @@ La distance entre noeuds, les interconnexions physiques, les taux de transmissio
 signaux peuvent varier entre deux réseaux différents, néanmoins leurs topologies peuvent être
 identiques. La topologie physique d'un réseau est un problème particulier à la couche physique du
 modèle OSI.
+
+#### Sections
+
+* [Liens](liens.md)
+* [Noeuds](noeuds.md)
+* [Classification](classification.md)
