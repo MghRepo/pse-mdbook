@@ -11,6 +11,6 @@
 * [Socket IPC](socket-ipc.md)
 * [Socket Netlink](socket-netlink.md)
 * [Tube anonyme](tube-anonyme.md)
-* [Tube nommé](tube-nommé.md)
+* [Tube nommé](tube-nomme.md)
 * [Passage de messages](passage-de-messages.md)
 * [D-Bus](d-bus.md)

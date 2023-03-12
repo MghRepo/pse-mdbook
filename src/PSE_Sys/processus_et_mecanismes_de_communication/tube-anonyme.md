@@ -2,11 +2,10 @@
 
 ### Tube anonyme
 
-Un tube anonyme est un mécanisme de gestion de flux de donnée. Ce mécanisme inventé pour UNIX est
+Un tube anonyme est un mécanisme de gestion de flux de donnée. Ce mécanisme inventé pour Unix est
 principalement utilisé dans la communication inter-processus. Ouvrir un tube anonyme permet de créer
 un flux de donnée unidirectionnel FIFO entre un processus et un autre. Ces tubes sont détruits
-lorsque le processus qui les a créés disparaît, contrairement aux tubes nommés qui sont liés au
-système d'exploitation et qui doivent être explicitement détruits.
+lorsque le processus qui les a créés disparaît.
 
 Ce mécanisme permet la création de filtres.
 
