@@ -3,7 +3,7 @@
 if git ls-remote --heads origin | grep -q gh-pages
 then
     echo "====> Suppression de la branche distante"
-	git push origin -d gh-pages
+	git branch -rd origin/gh-pages
 fi
 echo "====> Suppression du worktree et de la branche locale"
 git worktree remove --force "$1" 
