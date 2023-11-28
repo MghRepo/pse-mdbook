@@ -37,7 +37,10 @@ argument il suffit d'entourer la chaîne de guillemets :
     $ echo "Hello world!"
     Hello world!
 ```
-On peut également échapper le caractère espace à l'aide d'un antislash : $ echo Hello\ world!  Hello
-world!
+On peut également échapper le caractère espace à l'aide d'un antislash :
+```bash,ignore
+    $ echo Hello\ world!
+    Hello world!
+```
 
 > Exemple pour créer un répertoire Mes photos on écrit : *mkdir Mes\ photos*
