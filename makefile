@@ -1,4 +1,4 @@
-tmpbookdir=/tmp/pse-book/
+tmpbookdir=/tmp/pse-book
 
 .PHONY: deploy
 deploy : book
