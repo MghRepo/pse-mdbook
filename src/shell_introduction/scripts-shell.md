@@ -25,7 +25,7 @@ $ echo '$foo'
 Comme la plupart des langages de programmation, bash supporte des techniques de contrôle du flux
 d'exécution tel que if, case, while et for. On peut également définir des fonctions en bash qui
 peuvent prendre des arguments. Exemple :
-```console
+```bash
 mcd () {
     mkdir -p "$1"
     cd "$1"
@@ -54,7 +54,7 @@ Néanmoins, ce code peut aussi être utilisé pour des commandes conditionnées 
 opérateurs && (et) et || (ou). Les commandes peuvent également être séparées sur la même ligne avec
 le ; . La commande true aura toujours un code retour à 0 tandis que false aura toujours un code à 1.
 Exemples :
-```console
+```bash
 false || echo "Oups, raté !"
 
 true || echo "N'est pas affiché"
@@ -68,13 +68,13 @@ false ; echo "Ca marche !"
 Parfois on souhaite avoir le contenu de la sortie d'une commande dans une variable. On peut le faire
 à l'aide d'une substitution de commande. Quand on écrit $(commande) le bash exécutera la commande et
 substituera son contenu dans le script avant l'exécution de celui-ci. Par exemple, si on écrit :
-```console
+```bash
 for file in $(ls)
 ```
 Le shell appellera dans un premier temps ls et parcourra ses valeurs par la suite.
 
 Le bash permet également de substituer une commande de cette façon :
-```console
+```bash
 diff <(ls foo) <(ls bar)
 ```
 Cette commande montre la différence entre fichiers dans les répertoires foo et bar.
@@ -82,7 +82,7 @@ Cette commande montre la différence entre fichiers dans les répertoires foo et
 Puisque cela a été relativement rapide, voyons un exemple que montre quelques trucs qu'on peut
 faire. Le script parcourra les arguments que nous lui donnerons, grep la chaîne foobar, et
 l'ajoutera comme commentaire ci celle-ci est absente.
-```console
+```bash
 #!/bin/bash
 
 echo "Début du programme à $(date)" # Date sera substituée
@@ -112,7 +112,7 @@ choses plus faciles, "étendant" les expressions en supportant des expansions de
   convertir des fichiers.
 
 Exemples :
-```console
+```bash
 convert image.{png,jpg}
 # Deviens
 convert image.png image.jpg
