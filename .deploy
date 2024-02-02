@@ -1,0 +1,26 @@
+#!/bin/bash
+
+if git ls-remote --heads origin | grep -q gh-pages ; then
+    echo "====> Suppression de la branche distante"
+	git push origin -d gh-pages
+fi
+if git worktree list | grep -q gh-pages ; then
+    echo "====> Suppression du worktree et de la branche locale"
+    git worktree remove --force "$1" 
+    git branch -D gh-pages
+fi
+echo "====> Préparation du worktree"
+rm -r "$1" 2>/dev/null
+git worktree add -b gh-pages "$1"
+echo "====> Test et build"
+mdbook clean && mdbook build
+echo "====> Copie worktree gh-pages"
+cp -rp book/* "$1"
+echo "====> Déploiement sur github"
+cd "$1"
+git update-ref -d refs/heads/gh-pages
+git add -A
+git commit -m "déployé le $(date) par ${USER}"
+git push origin gh-pages
+
+exit 0
