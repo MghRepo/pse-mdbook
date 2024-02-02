@@ -15,32 +15,32 @@ celui qui va nous intéresser ici.
 
 Quand on ouvre un terminal, une fenêtre s'ouvre affichant un prompt shell. Dans le cadre du bash si
 aucune personnalisation n'a été faite il se décompose ainsi :
-```bash,ignore
-    [utilisateur@machine répertoire\ de\ travail]$
+```console
+[utilisateur@machine répertoire\ de\ travail]$
 ```
 Généralement un shell est fait pour passer des commandes, c'est à dire, exécuter des programmes avec
 ou sans arguments :
-```bash,ignore
-    $ date
-    sam. 09 mai 2020 17:36:09 CEST
+```console
+$ date
+sam. 09 mai 2020 17:36:09 CEST
 ```
 L'ajout de certains arguments permet de modifier le comportement de certains programmes. La commande
 *echo* permet par exemple d'afficher à l'écran les arguments qui la suivent. Un argument est une
 chaîne de caractère séparée du nom du programme par un espace :
-```bash,ignore
-    $ echo hello
-    hello
+```console
+$ echo hello
+hello
 ```
 Si l'on souhaite que l'argument contiennent lui-même un espace, et éviter d'ajouter un deuxième
 argument il suffit d'entourer la chaîne de guillemets :
-```bash,ignore
-    $ echo "Hello world!"
-    Hello world!
+```console
+$ echo "Hello world!"
+Hello world!
 ```
 On peut également échapper le caractère espace à l'aide d'un antislash :
-```bash,ignore
-    $ echo Hello\ world!
-    Hello world!
+```console
+$ echo Hello\ world!
+Hello world!
 ```
 
 > Exemple pour créer un répertoire Mes photos on écrit : *mkdir Mes\ photos*

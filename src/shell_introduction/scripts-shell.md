@@ -14,22 +14,22 @@ sépare les arguments.
 Les chaînes de caractères en bash peuvent être définies à l'aide des délimiteurs ' et ", mais ils ne
 sont pas équivalents. Les chaînes délimitées à l'aide de la simple quote sont des littéraux et ne
 substituent pas de variables contrairement aux chaînes délimitées à l'aide d'une double quote :
-```bash,ignore
-    $ foo=bar
-    $ echo "$foo"
-      bar
-    
-    $ echo '$foo'
-      $foo
+```console
+$ foo=bar
+$ echo "$foo"
+  bar
+
+$ echo '$foo'
+  $foo
 ```
 Comme la plupart des langages de programmation, bash supporte des techniques de contrôle du flux
 d'exécution tel que if, case, while et for. On peut également définir des fonctions en bash qui
 peuvent prendre des arguments. Exemple :
-```bash,ignore
-    mcd () {
-        mkdir -p "$1"
-        cd "$1"
-    }
+```console
+mcd () {
+    mkdir -p "$1"
+    cd "$1"
+}
 ```
 Ici $1 est le premier argument de la fonction. Contrairement aux autres langages de script, bash
 utilise un nombre assez important de variables spéciales qui font référence à des arguments, codes
@@ -54,48 +54,48 @@ Néanmoins, ce code peut aussi être utilisé pour des commandes conditionnées 
 opérateurs && (et) et || (ou). Les commandes peuvent également être séparées sur la même ligne avec
 le ; . La commande true aura toujours un code retour à 0 tandis que false aura toujours un code à 1.
 Exemples :
-```bash,ignore
-    false || echo "Oups, raté !"
-    
-    true || echo "N'est pas affiché"
-    
-    true && echo "Les choses se sont bien passées."
-    
-    false && echo "Pas affiché"
-    
-    false ; echo "Ca marche !"
+```console
+false || echo "Oups, raté !"
+
+true || echo "N'est pas affiché"
+
+true && echo "Les choses se sont bien passées."
+
+false && echo "Pas affiché"
+
+false ; echo "Ca marche !"
 ```
 Parfois on souhaite avoir le contenu de la sortie d'une commande dans une variable. On peut le faire
 à l'aide d'une substitution de commande. Quand on écrit $(commande) le bash exécutera la commande et
 substituera son contenu dans le script avant l'exécution de celui-ci. Par exemple, si on écrit :
-```bash,ignore
-    for file in $(ls)
+```console
+for file in $(ls)
 ```
 Le shell appellera dans un premier temps ls et parcourra ses valeurs par la suite.
 
 Le bash permet également de substituer une commande de cette façon :
-```bash,ignore
-    diff <(ls foo) <(ls bar)
+```console
+diff <(ls foo) <(ls bar)
 ```
 Cette commande montre la différence entre fichiers dans les répertoires foo et bar.
 
 Puisque cela a été relativement rapide, voyons un exemple que montre quelques trucs qu'on peut
 faire. Le script parcourra les arguments que nous lui donnerons, grep la chaîne foobar, et
 l'ajoutera comme commentaire ci celle-ci est absente.
-```bash,ignore
-    #!/bin/bash
-    
-    echo "Début du programme à $(date)" # Date sera substituée
-    
-    echo "Exécution du program $0 avec $# arguments avec le pid $$"
-    
-    for fichier in $@; do
-        grep foobar $fichier 2>&1 >/dev/null
-        if [[ $? -ne 0 ]]; then
-            echo "Le fichier $fichier ne contient pas le mot foobar, ajout en cours !"
-            echo "# foobar" >> "$fichier"
-        fi
-    done
+```console
+#!/bin/bash
+
+echo "Début du programme à $(date)" # Date sera substituée
+
+echo "Exécution du program $0 avec $# arguments avec le pid $$"
+
+for fichier in $@; do
+    grep foobar $fichier 2>&1 >/dev/null
+    if [[ $? -ne 0 ]]; then
+        echo "Le fichier $fichier ne contient pas le mot foobar, ajout en cours !"
+        echo "# foobar" >> "$fichier"
+    fi
+done
 ```
 Dans le test de comparaison on teste si $? est égal à 0. Bash implémente de nombreuses comparaisons
 de la sorte (voir man test). Dans un test on essaye généralement d'utiliser les doubles crochets,
@@ -112,37 +112,37 @@ choses plus faciles, "étendant" les expressions en supportant des expansions de
   convertir des fichiers.
 
 Exemples :
-```bash,ignore
-    convert image.{png,jpg}
-    # Deviens
-    convert image.png image.jpg
-    
-    cp /chemin/du/projet/{foo,bar,baz}.sh /nouveau_chemin
-    #Deviens
-    cp /chemin/du/projet/foo.sh /chemin/du/projet/bar.sh /chemin/du/projet/baz.sh /nouveau_chemin
-    
-    # On peut également combiner des jokers
-    mv *{.py,.sh} repertoire
-    
-    mkdir foo bar
-    # Après la création de ces 2 répertoire,
-    # La commande ci-dessous créé les fichiers foo/a foo/b, ...foo/h, bar/a, bar/b, ...
-    touch {foo, bar}/{a..h}
-    touch foo/x bar/y
-    # Montre la différence entre les fichiers contenus dans foo et ceux dans bar
-    diff <(ls foo) <(ls bar)
-    # Sors
-    # < x
-    # ---
-    # > y
+```console
+convert image.{png,jpg}
+# Deviens
+convert image.png image.jpg
+
+cp /chemin/du/projet/{foo,bar,baz}.sh /nouveau_chemin
+#Deviens
+cp /chemin/du/projet/foo.sh /chemin/du/projet/bar.sh /chemin/du/projet/baz.sh /nouveau_chemin
+
+# On peut également combiner des jokers
+mv *{.py,.sh} repertoire
+
+mkdir foo bar
+# Après la création de ces 2 répertoire,
+# La commande ci-dessous créé les fichiers foo/a foo/b, ...foo/h, bar/a, bar/b, ...
+touch {foo, bar}/{a..h}
+touch foo/x bar/y
+# Montre la différence entre les fichiers contenus dans foo et ceux dans bar
+diff <(ls foo) <(ls bar)
+# Sors
+# < x
+# ---
+# > y
 ```
 Les scripts ne doivent pas nécessairement être écrit en bash pour être exécuté depuis le terminal.
 Exemple, ce script python qui inverse les arguments qu'on lui fournit :
-```python,ignore
-    #!/usr/local/bin/python
-    import sys
-    for arg in reversed(sys.argv[1:]):
-        print(arg)
+```python
+#!/usr/local/bin/python
+import sys
+for arg in reversed(sys.argv[1:]):
+    print(arg)
 ```
 Le noyau sait exécuter ce script avec le bon interpréteur grâce à l'inclusion du sheebang (la
 première ligne). C'est une bonne pratique que d'inclure les sheebangs en utilisant la commande *env*
