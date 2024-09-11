@@ -4,7 +4,7 @@
 
 * [Multitâche coopératif](multitache-cooperatif.md)
 * [Multitâche préemptif](multitache-preemptif.md)
-* [Algorithmes d'ordonnancement](algorithme-dordonnancement.md)
+* [Algorithmes d'ordonnancement](algorithmes-dordonnancement.md)
 * [Synchronisation](synchronisation.md)
 * [Signaux](signaux.md)
 * [Socket réseau](socket-reseau.md)

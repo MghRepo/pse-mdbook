@@ -63,13 +63,17 @@ Algorithmes d'ordonnancement :
 * **Shortest job first (SJF, ou SJN-Shortest Job Next)** : Le choix se fait en fonction du temps
   d'exécution estimé du processus. Ainsi l'ordonnanceur va laisser passer en priorité le plus court
   des processus de la file d'attente.
-* **Completely Fair Scheduler (CFS)** : L'ordonnanceur des tâches pour le noyau Linux. Il gère
-  l'allocation de ressource processeur pour l'exécution des processus, en maximisant l'utilisation
-  globale CPU tout en optimisant l'interactivité. CFS utilise un arbre rouge-noir implémentant une
-  chronologie des futures exécutions des tâches. En effet, l'arbre trie les processus selon une
-  valeur representative du manque de ces processus en temps d'allocation du processeur, par rapport
-  au temps qu'aurait alloué un processeur dit multitâche idéal. De plus, l'ordonnanceur utilise une
-  granularité temporelle à la nanoseconde, rendant redondante la notion de tranche de temps, les
-  unités atomiques utilisées pour le partage du CPU entre processus. Cette connaissance précise
-  signifie également qu'aucune heuristique (basée sur la statistique, donc pouvant commettre des
-  erreurs) n'est requise pour déterminer l'interactivité d'un processus.
+* **Completely Fair Scheduler (CFS)** : L'ordonnanceur des tâches pour le noyau Linux jusqu'à la
+  version 6.6. Il gère l'allocation de ressource processeur pour l'exécution des processus, en
+  maximisant l'utilisation globale CPU tout en optimisant l'interactivité. CFS utilise un arbre
+  rouge-noir implémentant une chronologie des futures exécutions des tâches. En effet, l'arbre trie
+  les processus selon une valeur representative du manque de ces processus en temps d'allocation du
+  processeur, par rapport au temps qu'aurait alloué un processeur dit multitâche idéal. De plus,
+  l'ordonnanceur utilise une granularité temporelle à la nanoseconde, rendant redondante la notion
+  de tranche de temps, les unités atomiques utilisées pour le partage du CPU entre processus. Cette
+  connaissance précise signifie également qu'aucune heuristique (basée sur la statistique, donc
+  pouvant commettre des erreurs) n'est requise pour déterminer l'interactivité d'un processus.
+* **Earliest eligible virtual deadline first (EEVDF)** : Il s'agit d'un algorithme d'ordonnancement
+  proportionnel à priorité dynamique pour Soft RTOS. Il utilise des notions telles que le *temps
+  virtuel*, le *temps éligible*, les *requêtes virtuelles* et les *échéances virtuelles*. Il
+  remplace CFS depuis la version 6.6 de Linux (fin Octobre 2023).
