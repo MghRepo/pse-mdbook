@@ -1,4 +1,6 @@
-## VLAN
+## Virtualisation réseau
+
+### VLAN
 
 Les LANs virtuels permette de subdiviser un LAN. Linux peut accepter un traffic marqué VLAN et
 présenter chaque identifiant VLAN comme une interface réseau différente.

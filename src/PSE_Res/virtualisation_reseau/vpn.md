@@ -1,4 +1,6 @@
-## VPN
+## Virtualisation réseau
+
+### VPN
 
 Un réseau privé virtuel (*VPN*) étend un réseau privé à travers un réseau public et permet aux
 utilisateurs d'envoyer et de recevoir des données à travers des réseaux publics partagés comme si
