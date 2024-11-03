@@ -72,8 +72,7 @@
         - [Chargeur d'amorçage](PSE_Sys/elements_de_demarrage/chargeur-damorçage.md)
         - [Initramfs](PSE_Sys/elements_de_demarrage/initramfs.md)
         - [Noyau](PSE_Sys/elements_de_demarrage/noyau.md)
-        - [Talon de démarrage UEFI et Image noyau
-          unifiée](PSE_Sys/elements_de_demarrage/talon-de-demarrage-uefi-et-image-noyau-unifiee.md)
+        - [Talon de démarrage UEFI et Image noyau unifiée](PSE_Sys/elements_de_demarrage/talon-de-demarrage-uefi-et-image-noyau-unifiee.md)
         - [Cgroups](PSE_Sys/elements_de_demarrage/cgroups.md)
         - [Espaces de noms](PSE_Sys/elements_de_demarrage/espaces-de-noms.md)
         - [Systemd](PSE_Sys/elements_de_demarrage/systemd.md)
@@ -85,8 +84,7 @@
         - [Netfilter](PSE_Sys/elements_de_securite/netfilter.md)
         - [BPF et eBPF](PSE_Sys/elements_de_securite/bpf-et-ebpf.md)
         - [IDS](PSE_Sys/elements_de_securite/ids.md)
-        - [Contrôle d'accès discrétionnaire et
-          droits](PSE_Sys/elements_de_securite/controle-dacces-discretionnaire-et-droits.md)
+        - [Contrôle d'accès discrétionnaire et droits](PSE_Sys/elements_de_securite/controle-dacces-discretionnaire-et-droits.md)
         - [Listes de contrôle d'accès ACL](PSE_Sys/elements_de_securite/listes-de-controle-dacces-acl.md)
         - [Capacités](PSE_Sys/elements_de_securite/capacites.md)
         - [SELinux](PSE_Sys/elements_de_securite/selinux.md)
@@ -95,6 +93,7 @@
         - [PAM](PSE_Sys/elements_de_securite/pam.md)
         - [Sudo](PSE_Sys/elements_de_securite/sudo.md)
         - [Auditd](PSE_Sys/elements_de_securite/auditd.md)
+        - [Systemd-homed](PSE_Sys/elements_de_securite/systemd-homed.md)
     + [Virtualisation et conteneurisation](PSE_Sys/virtualisation_et_conteneurisation/index.md)
         - [Chroot](PSE_Sys/virtualisation_et_conteneurisation/chroot.md)
         - [Systemd-nspawn](PSE_Sys/virtualisation_et_conteneurisation/systemd-nspawn.md)
@@ -163,8 +162,7 @@
         - [ITIL](PSE_Env/normalisation/itil.md)
         - [COBIT](PSE_Env/normalisation/cobit.md)
     + [Notions générales sur le droit de l'informatique](PSE_Env/notions_generales_sur_le_droit_de_linformatique/index.md)
-        - [Protection des données
-          individuelles](PSE_Env/notions_generales_sur_le_droit_de_linformatique/protection-des-donnees-individuelles.md)
+        - [Protection des données individuelles](PSE_Env/notions_generales_sur_le_droit_de_linformatique/protection-des-donnees-individuelles.md)
         - [L'usage de la messagerie](PSE_Env/notions_generales_sur_le_droit_de_linformatique/lusage-de-la-messagerie.md)
         - [Rôle de la CNIL](PSE_Env/notions_generales_sur_le_droit_de_linformatique/role-de-la-cnil.md)
         - [Licences](PSE_Env/notions_generales_sur_le_droit_de_linformatique/licences.md)
@@ -180,7 +178,6 @@
     + [Les chemins](shell_introduction/les-chemins.md)
     + [Lister le contenu d'un répertoire et droits](shell_introduction/lister-le-contenu-dun-repertoire-et-droits.md)
     + [D'autres commandes](shell_introduction/dautres-commandes.md)
-    + [Redirection d'entrée/sortie, descripteurs de fichiers et
-      tubes](shell_introduction/redirection-dentreesortie-descripteurs-de-fichiers-et-tubes.md)
+    + [Redirection d'entrée/sortie, descripteurs de fichiers et tubes](shell_introduction/redirection-dentreesortie-descripteurs-de-fichiers-et-tubes.md)
     + [Un outil versatile et puissant](shell_introduction/un-outil-versatile-et-puissant.md)
     + [Scripts shell](shell_introduction/scripts-shell.md)

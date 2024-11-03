@@ -8,3 +8,7 @@ interopérabilité parmi différents programmes, mais s'assure également qu'ils
 gestion des mots de passe sécurisée et documentée.
 
 LUKS utilise dm-crypt comme backend pour le chiffrement de disque.
+
+> **Remarque** : Il existe également plusieurs systèmes de chiffrement du disque complet (ou
+ pseudo-complet), on parle de FDE (*Hardware-based Full Disk Encryption*). Linux remplit en partie
+ un ensemble de spécifications (*OPAL*) pour des SED (Self-Encrypting Disk).
