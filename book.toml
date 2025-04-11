@@ -1,6 +1,5 @@
 [book]
 authors = ["Hugo BRUGEL"]
 language = "fr"
-multilingual = false
 src = "src"
 title = "Fiches de préparation PSE"
